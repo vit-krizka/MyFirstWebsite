@@ -1,0 +1,95 @@
+/* obecná nastavení */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Assets/background.png);
+    margin: 0px;
+    font-family: consolas;
+}
+
+a:link, a:visited {
+    color: #ff0099;
+}
+  
+a:hover {
+    color: #fb3eaf;
+    font-weight: bold;
+}
+
+/* navigační lišta */
+
+nav {
+    background-color: #333333;
+    width: 100%;
+    color: white;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+
+#navbar {
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    margin-top: 9px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0px 15px;
+    margin: 0px 5px;
+}
+
+/* hlavní obsah */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    padding-bottom: 30px;
+}
+
+.divider {
+    text-align: center;
+    padding: 25px 0 15px 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', courier;
+}
+
+h2 {
+    color: #ff0099;
+    font-weight: normal;
+    margin: 0px;
+    font-family: 'Roboto Slab', consolas;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Slab', consolas;
+}
+
+dt {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: large;
+}
+
+dd {
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
